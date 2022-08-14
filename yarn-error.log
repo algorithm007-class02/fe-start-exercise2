@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/yejia/.nvm/versions/node/v14.17.0/bin/node /Users/yejia/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/yejia/.yarn/bin:/Users/yejia/.config/yarn/global/node_modules/.bin:/Users/yejia/.bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/bin:/Users/yejia/.nvm/versions/node/v14.17.0/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/yejia/.yarn/bin:/Users/yejia/.config/yarn/global/node_modules/.bin:/Users/yejia/.bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/bin:/Library/Frameworks/Python.framework/Versions/3.9/bin:/Users/yejia/Documents/installs/mongod/mongodb-osx-x86_64-3.4.9/bin:/Users/yejia/Library/Android/sdk/emulator:/Users/yejia/Library/Android/sdk/tools:/Users/yejia/Library/Android/sdk/tools/bin:/Users/yejia/Library/Android/sdk/platform-tools:/Users/yejia/Documents/installs/mongod/mongodb-osx-x86_64-3.4.9/bin:/Users/yejia/Library/Android/sdk/emulator:/Users/yejia/Library/Android/sdk/tools:/Users/yejia/Library/Android/sdk/tools/bin:/Users/yejia/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/yejia/Documents/fe-class/fe-start-exercise2/package.json: Unexpected token } in JSON at position 131
+      at JSON.parse (<anonymous>)
+      at /Users/yejia/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/yejia/.yarn/lib/cli.js:310:30)
+      at /Users/yejia/.yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "exercise2",
+    "version": "0.0.1",
+    "description": "test",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FE-star/exercise2.git"
+    },
+    "keywords": [
+      "test"
+    ],
+    "author": "Daniel Yang",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/FE-star/exercise2/issues"
+    },
+    "homepage": "https://github.com/FE-star/exercise2#readme",
+    "devDependencies": {
+      "jest": "^28.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
